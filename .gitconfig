@@ -1,0 +1,7 @@
+[user]
+	name = bbssuew
+	email = oguzhan.okur@gmail.com
+[core]
+	editor = emacs
+[merge]
+	tool = vimdiff

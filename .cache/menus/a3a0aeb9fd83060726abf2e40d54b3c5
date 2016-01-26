@@ -1,0 +1,268 @@
+1.1
+applications.menu
+11
+D/root/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/root/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/applications
+D/etc/xdg/menus/applications-merged
+D/root/.config/menus/applications-merged
+F/root/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+
++Applications
+Anwendungen
+Anwendungen
+applications-other
+lxde-menu-applications.directory
+2
++Internet
+Internet
+Programme, um Internet-Dienste wie E-Mail oder das WWW zu nutzen
+applications-internet
+lxde-network.directory
+2
+-firefox.desktop
+Firefox Web Browser
+Im Internet surfen
+firefox
+
+6
+Firefox Web Browser
+firefox %u
+2
+0
+
++System
+Systemwerkzeuge
+Systemkonfiguration und -überwachung
+applications-system
+lxde-system-tools.directory
+2
+-debian-uxterm.desktop
+UXTerm
+standard terminal emulator for the X window system
+xterm-color
+
+6
+UXTerm
+uxterm
+0
+0
+-debian-xterm.desktop
+XTerm
+standard terminal emulator for the X window system
+xterm-color
+
+6
+XTerm
+xterm
+0
+0
+
++Multimedia
+Unterhaltungsmedien
+Multimedia-Menü
+applications-multimedia
+lxde-audio-video.directory
+2
+-lxmusic.desktop
+Medien-Abspieler
+Musikdateien einfach wiedergeben
+lxmusic
+
+6
+Medien-Abspieler
+lxmusic
+2
+0
+
++Accessories
+Zubehör
+Desktop-Zubehör
+applications-accessories
+lxde-utility.directory
+2
+-gpicview.desktop
+Bildbetrachter
+Bilder einfach betrachten
+gpicview
+
+6
+Bildbetrachter
+gpicview %f
+2
+0
+-byobu.desktop
+Byobu Terminal
+Advanced Command Line and Text Window Manager
+byobu
+
+6
+Byobu Terminal
+env TERM=xterm-256color byobu
+1
+0
+-galculator.desktop
+Galculator
+Ausführen von einfachen und wissenschaftlichen Berechnungen
+galculator
+
+6
+Galculator
+galculator
+2
+0
+-leafpad.desktop
+Leafpad
+Einfacher Texteditor
+leafpad
+
+6
+Leafpad
+leafpad %f
+0
+0
+-lxterminal.desktop
+LXTerminal
+Befehlszeile verwenden
+lxterminal
+
+6
+LXTerminal
+lxterminal
+0
+0
+-pcmanfm.desktop
+PCManFM Dateimanager
+Das Dateisystem durchsuchen und Dateien verwalten
+system-file-manager
+
+6
+PCManFM Dateimanager
+pcmanfm %U
+2
+0
+-xarchiver.desktop
+Xarchiver
+Ein auf GTK+2 basierender Archivmanager
+xarchiver
+
+6
+Xarchiver
+xarchiver %f
+2
+0
+
+-
++DesktopSettings
+Einstellungen
+Persönliche Einstellungen
+preferences-desktop
+lxde-settings.directory
+2
+-users.desktop
+Benutzer und Gruppen
+Benutzer und Gruppen hinzufügen oder entfernen
+config-users
+
+6
+Benutzer und Gruppen
+users-admin
+2
+0
+-lxrandr.desktop
+Bildschirmeinstellungen
+Die Bildschirmauflösung und externe Monitore konfigurieren
+display
+
+6
+Bildschirmeinstellungen
+lxrandr
+0
+0
+-xscreensaver-properties.desktop
+Bildschirmschoner
+Einstellungen des Bildschirmschoners ändern
+xscreensaver
+
+6
+Bildschirmschoner
+xscreensaver-demo
+0
+0
+-time.desktop
+Datum und Uhrzeit
+Systemzeit, Datum und Zeitzone ändern
+time-admin
+
+6
+Datum und Uhrzeit
+time-admin
+2
+0
+-pcmanfm-desktop-pref.desktop
+Desktop Einstellungen
+Hintergrundbilder und Verhalten der Desktopverwaltung ändern
+user-desktop
+
+6
+Desktop Einstellungen
+pcmanfm --desktop-pref
+2
+-15
+-lxsession-edit.desktop
+Desktopsitzungseinstellungen
+Manage applications loaded in desktop session
+xfwm4
+
+6
+Desktopsitzungseinstellungen
+lxsession-edit
+0
+-15
+-lxappearance.desktop
+Erscheinungsbild anpassen
+Das Erscheinungsbild Ihrer Arbeitsumgebung und Anwendungen anpassen
+preferences-desktop-theme
+
+6
+Erscheinungsbild anpassen
+lxappearance
+2
+-15
+-network.desktop
+Netzwerk
+Netzwerkschnittstellen und -verbindungen konfigurieren
+preferences-system-network
+
+6
+Netzwerk
+network-admin
+2
+0
+-obconf.desktop
+Openbox Konfiguration Manager
+Konfiguriert den Openbox Window Manager
+obconf
+
+6
+Openbox Konfiguration Manager
+obconf %f
+2
+0
+-lxinput.desktop
+Tastatur und Maus
+Maus, Tastatur und andere Eingabegeräte konfigurieren
+input-keyboard
+
+6
+Tastatur und Maus
+lxinput
+2
+1
+
+
